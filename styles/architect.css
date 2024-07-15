@@ -227,12 +227,13 @@ line-height: 53px;
     .navbar, 
     .nav-link, 
     .teams,
-    .features{
+    .features
+    {
         flex-direction: column;
     }
     .team-img-container, .facts-container, .sponsor-companies{
         grid-template-columns: repeat(1, 1fr);
-    }'
+    }
     
     .our-features{
         margin-left: 20px;
@@ -242,7 +243,7 @@ line-height: 53px;
         justify-items: center;
         gap: 24px;
     }
-    ..sponsor-companies{
+    .sponsor-companies{
         gap: 50px;
         justify-items: center;
     }
@@ -253,6 +254,7 @@ line-height: 53px;
     .nav-link{
         gap: 20px;
     }
+    
     
 }
 
